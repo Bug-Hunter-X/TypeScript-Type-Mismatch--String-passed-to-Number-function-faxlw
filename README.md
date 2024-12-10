@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle issue in TypeScript: type mismatches that aren't caught at compile time, resulting in runtime errors. The `bug.ts` file shows a function expecting a number but accepting a string without a compile-time error.  The `bugSolution.ts` file presents a solution using type guards to enhance type safety.
